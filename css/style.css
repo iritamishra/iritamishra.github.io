@@ -100,9 +100,9 @@ nav.main-nav a.active {
 
 .hero img.portrait {
   width: 200px;
-  height: 200px;
+  height: auto;
   border-radius: 8px;
-  object-fit: cover;
+  object-fit: contain;
   background: var(--bg-alt);
   border: 1px solid var(--border);
 }
