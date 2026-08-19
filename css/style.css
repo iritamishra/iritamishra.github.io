@@ -30,6 +30,10 @@ body {
   padding: 0 24px;
 }
 
+a {
+  color: var(--accent);
+}
+
 /* ---------- Header / nav ---------- */
 header.site-header {
   border-bottom: 1px solid var(--border);
