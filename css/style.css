@@ -256,6 +256,10 @@ h2.section-title {
   margin: 0 0 6px;
 }
 
+.pub-item .pub-links {
+  margin-top: 8px;
+}
+
 .pub-item .pub-links a {
   font-size: 0.85rem;
   margin-right: 14px;
@@ -265,14 +269,8 @@ h2.section-title {
 
 .pub-item .pub-links a:hover { text-decoration: underline; }
 
-.pub-item details.abstract {
-  margin-top: 8px;
-}
-
 .pub-item details.abstract summary {
   cursor: pointer;
-  font-size: 0.85rem;
-  color: var(--accent);
   list-style: none;
 }
 
@@ -280,21 +278,32 @@ h2.section-title {
   display: none;
 }
 
-.pub-item details.abstract summary::before {
-  content: "▸ ";
-  font-size: 0.7rem;
+.pub-item details.abstract summary::marker {
+  display: none;
 }
 
-.pub-item details.abstract[open] summary::before {
-  content: "▾ ";
+.pub-item details.abstract summary .pub-title {
+  margin-bottom: 4px;
 }
 
-.pub-item details.abstract summary:hover {
-  text-decoration: underline;
+.pub-item details.abstract .dropdown-arrow {
+  display: inline-block;
+  margin-left: 6px;
+  font-size: 0.65rem;
+  color: var(--accent);
+  transition: transform 0.15s ease;
 }
 
-.pub-item details.abstract p {
-  margin: 8px 0 0;
+.pub-item details.abstract[open] .dropdown-arrow {
+  transform: rotate(90deg);
+}
+
+.pub-item details.abstract .abstract-body {
+  margin-top: 8px;
+}
+
+.pub-item details.abstract .abstract-body p {
+  margin: 0;
   color: var(--text-muted);
   font-size: 0.92rem;
   max-width: 640px;
