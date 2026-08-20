@@ -291,15 +291,35 @@ details.abstract summary::marker {
 }
 
 details.abstract .dropdown-arrow {
-  display: inline-block;
-  margin-left: 6px;
-  font-size: 0.65rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  margin-left: 8px;
+  vertical-align: middle;
+  border-radius: 50%;
+  background: rgba(109, 40, 217, 0.1);
   color: var(--accent);
-  transition: transform 0.15s ease;
+  transition: transform 0.15s ease, background 0.15s ease;
+}
+
+details.abstract .dropdown-arrow svg {
+  width: 11px;
+  height: 11px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2.2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+details.abstract summary:hover .dropdown-arrow {
+  background: rgba(109, 40, 217, 0.18);
 }
 
 details.abstract[open] .dropdown-arrow {
-  transform: rotate(90deg);
+  transform: rotate(180deg);
 }
 
 details.abstract .abstract-body {
