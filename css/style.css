@@ -265,6 +265,41 @@ h2.section-title {
 
 .pub-item .pub-links a:hover { text-decoration: underline; }
 
+.pub-item details.abstract {
+  margin-top: 8px;
+}
+
+.pub-item details.abstract summary {
+  cursor: pointer;
+  font-size: 0.85rem;
+  color: var(--accent);
+  list-style: none;
+}
+
+.pub-item details.abstract summary::-webkit-details-marker {
+  display: none;
+}
+
+.pub-item details.abstract summary::before {
+  content: "▸ ";
+  font-size: 0.7rem;
+}
+
+.pub-item details.abstract[open] summary::before {
+  content: "▾ ";
+}
+
+.pub-item details.abstract summary:hover {
+  text-decoration: underline;
+}
+
+.pub-item details.abstract p {
+  margin: 8px 0 0;
+  color: var(--text-muted);
+  font-size: 0.92rem;
+  max-width: 640px;
+}
+
 .pub-status {
   display: inline-block;
   font-size: 0.75rem;
