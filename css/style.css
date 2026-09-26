@@ -430,27 +430,8 @@ details.abstract .abstract-body p {
   font-size: 0.9rem;
 }
 
-.cv-entry .cv-detail {
-  display: flex;
-  align-items: flex-start;
-  gap: 12px;
-}
-
-.cv-entry .cv-detail .cv-logo {
-  width: 36px;
-  height: 36px;
-  object-fit: contain;
-  flex-shrink: 0;
-  border-radius: 4px;
-  border: 1px solid var(--border);
-  background: #ffffff;
-  padding: 3px;
-}
-
-.cv-entry .cv-detail .cv-detail-text { flex: 1; min-width: 0; }
-
-.cv-entry .cv-detail-text strong { display: block; font-weight: 600; }
-.cv-entry .cv-detail-text span { color: var(--text-muted); font-size: 0.92rem; }
+.cv-entry .cv-detail strong { display: block; font-weight: 600; }
+.cv-entry .cv-detail span { color: var(--text-muted); font-size: 0.92rem; }
 
 .download-btn {
   display: inline-block;
