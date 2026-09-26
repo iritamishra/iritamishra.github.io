@@ -482,6 +482,12 @@ details.abstract .abstract-body p {
   border: 1px solid var(--border);
 }
 
+.news-item .news-thumb.news-thumb-logo {
+  object-fit: contain;
+  padding: 16px;
+  background: #ffffff;
+}
+
 .news-item .news-body { flex: 1; min-width: 0; }
 
 .news-item .news-date {
