@@ -469,6 +469,34 @@ details.abstract .abstract-body p {
   margin-bottom: 3px;
 }
 
+.cv-entry .cv-detail ul.cv-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.cv-entry .cv-detail ul.cv-list li {
+  position: relative;
+  padding-left: 16px;
+  margin-bottom: 7px;
+  color: var(--text-muted);
+  font-size: 0.92rem;
+  line-height: 1.5;
+}
+
+.cv-entry .cv-detail ul.cv-list li:last-child { margin-bottom: 0; }
+
+.cv-entry .cv-detail ul.cv-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.55em;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+
 .cv-entry .cv-detail-text span,
 .cv-entry .cv-detail > span {
   display: block;
