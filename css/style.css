@@ -426,7 +426,7 @@ details.abstract .abstract-body p {
 
 .cv-entry {
   display: grid;
-  grid-template-columns: 150px 1fr;
+  grid-template-columns: 195px 1fr;
   gap: 16px;
   padding: 14px 0;
   border-top: 1px solid var(--border);
@@ -435,8 +435,18 @@ details.abstract .abstract-body p {
 .cv-block .cv-entry:first-of-type { border-top: none; }
 
 .cv-entry .cv-date {
-  color: var(--text-muted);
-  font-size: 0.9rem;
+  display: inline-block;
+  align-self: start;
+  width: fit-content;
+  max-width: 100%;
+  color: var(--accent-dark);
+  background: var(--bg-purple);
+  font-size: 0.78rem;
+  font-weight: 600;
+  line-height: 1.3;
+  padding: 5px 12px;
+  border-radius: 999px;
+  white-space: nowrap;
 }
 
 .cv-entry .cv-detail {
@@ -665,6 +675,7 @@ footer {
   }
 
   .cv-entry { grid-template-columns: 1fr; gap: 2px; }
+  .cv-entry .cv-date { margin-bottom: 8px; }
   .contact-grid { grid-template-columns: 1fr; }
 
   .news-item { flex-direction: column; }
