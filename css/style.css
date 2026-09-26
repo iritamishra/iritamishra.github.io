@@ -195,7 +195,7 @@ nav.main-nav a.active {
 
 /* ---------- Section styling ---------- */
 main {
-  padding: 40px 0 80px;
+  padding: 20px 0 80px;
 }
 
 section + section {
@@ -217,7 +217,7 @@ h2.section-title {
 }
 
 .page-header {
-  padding: 56px 0 16px;
+  padding: 28px 0 16px;
 }
 
 .page-header h1 {
