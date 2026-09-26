@@ -478,6 +478,7 @@ details.abstract .abstract-body p {
   flex-shrink: 0;
   border-radius: 8px;
   object-fit: cover;
+  padding: 8px;
   background: var(--bg-alt);
   border: 1px solid var(--border);
 }
