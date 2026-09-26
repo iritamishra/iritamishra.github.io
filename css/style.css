@@ -84,7 +84,7 @@ header.site-header {
 
 .site-title {
   font-family: var(--serif);
-  font-size: 1.15rem;
+  font-size: 1.32rem;
   font-weight: 700;
   color: var(--text);
   text-decoration: none;
@@ -384,6 +384,12 @@ details.abstract .abstract-body p {
 }
 
 /* ---------- Teaching ---------- */
+.course-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px 20px;
+}
+
 .course-item {
   padding: 18px 24px;
   margin-bottom: 12px;
@@ -392,6 +398,8 @@ details.abstract .abstract-body p {
   border-radius: var(--radius);
   transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
 }
+
+.course-grid .course-item { margin-bottom: 0; }
 
 .course-item:hover {
   border-color: var(--accent);
@@ -676,6 +684,10 @@ footer {
 
   .cv-entry { grid-template-columns: 1fr; gap: 2px; }
   .cv-entry .cv-date { margin-bottom: 8px; }
+
+  .course-grid { display: block; }
+  .course-grid .course-item { margin-bottom: 12px; }
+  .course-grid .course-item:last-child { margin-bottom: 0; }
   .contact-grid { grid-template-columns: 1fr; }
 
   .news-item { flex-direction: column; }
