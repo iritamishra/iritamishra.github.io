@@ -573,13 +573,17 @@ details.abstract .abstract-body p {
 }
 
 .contact-card h3 {
+  display: inline-block;
   font-family: var(--sans);
-  margin: 0 0 8px;
-  color: var(--accent);
+  margin: 0 0 14px;
+  color: var(--accent-dark);
+  background: var(--bg-purple);
   text-transform: uppercase;
   letter-spacing: 0.08em;
   font-weight: 600;
   font-size: 0.72rem;
+  padding: 5px 12px;
+  border-radius: 999px;
 }
 
 .contact-card p { margin: 0 0 4px; }
