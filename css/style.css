@@ -438,6 +438,7 @@ details.abstract .abstract-body p {
   gap: 16px;
   padding: 14px 0;
   border-top: 1px solid var(--border);
+  scroll-margin-top: 84px;
 }
 
 .cv-block .cv-entry:first-of-type { border-top: none; }
