@@ -718,6 +718,5 @@ footer {
   .contact-grid { grid-template-columns: 1fr; }
 
   .news-item { flex-direction: column; }
-  .news-item .news-thumb { width: 100%; height: auto; aspect-ratio: 1 / 1; }
-  .news-item .news-thumb.news-thumb-logo { width: 160px; height: 100px; aspect-ratio: auto; }
+  .news-item .news-thumb { width: 160px; height: 100px; aspect-ratio: auto; }
 }
