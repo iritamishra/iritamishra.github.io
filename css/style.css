@@ -1,3 +1,14 @@
+/* ---------- Page transitions ---------- */
+@view-transition {
+  navigation: auto;
+}
+
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation-duration: 0.32s;
+  animation-timing-function: ease-in-out;
+}
+
 /* ---------- Design tokens ---------- */
 :root {
   --bg: #ffffff;
