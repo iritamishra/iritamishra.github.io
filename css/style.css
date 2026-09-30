@@ -302,11 +302,11 @@ h2.section-title {
   margin: 0 0 6px;
 }
 
-.pub-item .pub-links {
+.pub-links {
   margin-top: 10px;
 }
 
-.pub-item .pub-links a {
+.pub-links a {
   display: inline-block;
   font-size: 0.82rem;
   font-weight: 500;
@@ -319,7 +319,7 @@ h2.section-title {
   transition: background 0.15s ease;
 }
 
-.pub-item .pub-links a:hover { background: var(--accent); color: #ffffff; text-decoration: none; }
+.pub-links a:hover { background: var(--accent); color: #ffffff; text-decoration: none; }
 
 details.abstract summary {
   cursor: pointer;
