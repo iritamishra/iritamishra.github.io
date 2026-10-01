@@ -33,7 +33,7 @@
   tap-highlight-color: transparent;
 }
 
-a, button, summary, details, .news-item, .pub-item, .course-item, .research-item {
+a, button, summary, details, .news-item, .pub-item, .course-item {
   -webkit-tap-highlight-color: transparent;
 }
 
@@ -63,17 +63,6 @@ body {
 
 a {
   color: var(--accent);
-}
-
-.eyebrow {
-  display: block;
-  font-family: var(--sans);
-  font-size: 0.72rem;
-  font-weight: 600;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: var(--accent);
-  margin: 0 0 10px;
 }
 
 /* ---------- Header / nav ---------- */
@@ -260,17 +249,7 @@ h2.section-title {
   border-radius: 12px;
 }
 
-
 /* ---------- Publications ---------- */
-.pub-year {
-  font-family: var(--serif);
-  font-weight: 700;
-  font-size: 1.1rem;
-  color: var(--text);
-  margin: 32px 0 10px;
-}
-
-.pub-year:first-of-type { margin-top: 0; }
 
 .pub-item {
   padding: 22px 26px;
