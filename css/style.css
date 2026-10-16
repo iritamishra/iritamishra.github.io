@@ -617,6 +617,8 @@ details.abstract .abstract-body p {
   background: #ffffff;
 }
 
+.news-item .news-thumb.news-thumb-wordmark { padding: 8px; }
+
 .news-item .news-body { flex: 1; min-width: 0; }
 
 .news-item .news-date {
