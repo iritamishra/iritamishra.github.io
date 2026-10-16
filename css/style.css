@@ -617,18 +617,6 @@ details.abstract .abstract-body p {
   background: #ffffff;
 }
 
-.news-item .news-thumb.news-thumb-text {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: var(--serif);
-  font-weight: 700;
-  font-size: 1.1rem;
-  letter-spacing: 0.04em;
-  color: var(--accent-dark);
-  background: var(--bg-purple);
-}
-
 .news-item .news-body { flex: 1; min-width: 0; }
 
 .news-item .news-date {
